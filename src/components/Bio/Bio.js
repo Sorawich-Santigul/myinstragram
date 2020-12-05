@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Post from '../Post/Post'
 import './Bio.css'
@@ -6,27 +7,27 @@ import './Bio.css'
 const Bio = ({user,timeline}) => {
   return (
     <div>
-      <bio>
+      <div className='bio'>
       <div className="title">
       <img src={user.profilepic}
       alt=""
       className='profilepic'
       />
-      <p>{user.name}</p>
+      <p className='bioname'>{user.name}</p>
       </div>
       <p>{`${user.post} post`}</p>
-      </bio>
+      </div>
     <timeline>
       {timeline.map((user,i)=>{
-      	return (
-			<Post  
-			name={timeline[i].name} 
-			imageurl={timeline[i].imageurl}
+        return (
+      <Post  
+      name={timeline[i].name} 
+      imageurl={timeline[i].imageurl}
             caption={timeline[i].caption}
             like={timeline[i].like}
             profilepic={timeline[i].profilepicture}
-			/>
-	    );
+      />
+      );
         })
         }
     </timeline>

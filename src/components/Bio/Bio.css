@@ -10,3 +10,13 @@
 	border-radius: 50%;
 	border: 2px solid #FFA255;
 }
+
+.bio{
+	display: flex;
+	align-items: center;
+}
+
+.bioname{
+	font-weight: bolder;
+	margin: 0px 15px 0px 0px;
+}

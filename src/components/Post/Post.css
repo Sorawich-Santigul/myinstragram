@@ -1,0 +1,58 @@
+.Postimg{
+	width: 100%;
+	height:65vh;
+	margin: 5px 0px 5px 0px;
+}
+
+.Post{
+	display: block;
+	width: 50%;
+	margin: 15px;
+	border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 0px 0px 0px;
+}
+
+.container-Post{
+  display: flex;
+  justify-content: center;
+}
+
+title{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.profilepic{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid #FFA255;
+}
+
+.caption{
+   display: flex;
+   margin: 5px;
+}
+
+.captionname{
+	font-weight: bolder;
+	margin: 0px 5px 0px 0px;
+}
+
+.like{
+	display: flex;
+	align-items:center; 
+}
+
+.likesign{
+	width: 30px;
+	height: 30px;
+}
+
+.likesign:hover{
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+}

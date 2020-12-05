@@ -1,0 +1,56 @@
+.peoplesign{
+	width: 30px;
+	height: 30px;
+}
+
+.logosign{
+	display: flex;
+	width: 30px;
+	height: 30px;
+	margin:  5px;
+	padding: 5px;
+	justify-content: center;
+	border-color: #FFA62F;
+	border-radius: 50%;
+	margin-right:auto;
+}
+
+.Navlink{
+  margin: 10px;
+  cursor: pointer; 
+}
+
+.Navlink:hover{
+  font-size:1.5rem;
+}
+
+.Navbar{
+	background-color: #FFA62F;
+	align-items: center;
+}
+
+.Profilebutton{
+  margin: 0px;
+  justify-content: center;
+  border-color: #FFA62F;
+}
+
+.peoplesign{
+	margin:  5px;
+	padding: 5px;
+	justify-content: center;
+	border-color: #FFA62F;
+	border-radius: 50%
+}
+
+.peoplesign:hover{
+	width: 3rem;
+	height: 3rem;
+	border-color: #FFA62F;
+	cursor: pointer;
+}
+
+.Profilebutton:hover{
+  border-color: #FFA62F;
+}
+
